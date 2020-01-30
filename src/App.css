@@ -1,0 +1,35 @@
+* {
+  font-size: 20px;
+}
+
+@media print {
+  @page {
+    size: landscape; /* 5.83in 4.13in landscape; */
+  }
+}
+
+table {
+  width: auto !important;
+}
+
+td:nth-child(1) {
+  width: 60px;
+  font-size: 48px;
+}
+
+td:nth-child(2) {
+  width: 90px;
+}
+
+td:nth-child(3) {
+  width: 140px;
+}
+
+td:nth-child(4) {
+  width: 475px;
+}
+
+td > div {
+  /* max-height: 105px; */
+  overflow: hidden;
+}
